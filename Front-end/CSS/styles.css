@@ -1,0 +1,363 @@
+h3 {
+    color: green;
+}
+
+p {
+    color: violet;
+}
+
+.paragraph {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(200, 30, 40);
+    color: #00eaff;
+}
+
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacity2 {
+    background-color: #999;
+    color: black;
+    opacity: 0.2;
+}
+
+.bg-opacity2 > p {
+    color: black;
+}
+
+.rgba-opacity {
+    /* background-color: rgb(90,120,20);
+    opacity: 0.2; */
+    background-color: rgba(90, 120, 20, 0.2);
+    color: black;
+}
+
+.bg-image {
+    background-image: url("../imgs/nature.jpg");
+    color: wheat;
+}
+
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../imgs/bridge.jpg");
+}
+
+.centered-bg {
+    background-position: center; /*Mostra o centro da imagem, a ponte*/
+    background-size: cover; /*mostra mais a imagem como um todo*/
+}
+
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: gray;
+}
+
+.without-padding,
+.with-padding {
+    background-color: #111;
+    color: #fff;
+}
+
+.with-padding {
+    background-color: #555;
+    padding: 20px;
+}
+
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+}
+
+.shorthand-padding {
+    background-color: #555;
+    padding: 12px 20px 50px 10px;
+}
+
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #888;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #939;
+    padding: 25px;
+}
+
+.rounded-p {
+    border: 4px solid blue;
+    background-color: #000;
+    color: red;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.rounded-p-2 {
+    background-color: #000;
+    color: red;
+    padding: 15px;
+    border-radius:25px;
+}
+
+.margin {
+    margin: 10px;
+    background-color: #00eaff;
+}
+
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 300px;
+    height: 400px;
+}
+
+.text-alignment {
+    text-align: right;
+} 
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.spacing {
+    letter-spacing: 5px;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+.monospace {
+    font-family: monospace;
+}
+.cursive {
+    font-family: cursive;
+}
+.fantasy {
+    font-family: fantasy;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.thin, .bold, .bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+.small {
+    font-size: 6px;
+}
+
+.big {
+    font-size: 88px;
+}
+
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #4f8;
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+.static {
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+.relative {
+    position: relative;
+    background-color: #224;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+
+    top: 100px;
+    left: 40px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #577;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+
+    top: 2px;
+    right: 2px;
+}
+
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+.fixed {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+
+    top: 50px;
+    right: 50px;
+}
+
+.sticky {
+    width: 50px;
+    height: 50px;
+    background-color: #994;
+    position: sticky;
+
+    top: 50px;
+    left: 50px;
+}
+
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 20;
+}
+
+.absolute-5 {
+    top: 30px;
+    left: 30px;
+    background-color: #4f8;
+    z-index: 1;
+}
