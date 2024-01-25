@@ -1,0 +1,77 @@
+html {
+    font-family: 'Times New Roman';
+    background-color: #000;
+    color: #DEC379;
+}
+
+.container {
+    max-width: 1200px;
+    background-color: #A50000;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 40px;
+}
+
+.main-paragraph {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.featured-image {
+    text-align: center;
+}
+
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+}
+.quotes-container {
+    background-color: #003395;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+.lessons-container {
+    height: 120px;
+}
+
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+.moreinfo-container p{
+    font-size: 25px;
+}
+
+.moreinfo-container a{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+}
