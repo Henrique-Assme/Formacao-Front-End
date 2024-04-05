@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "id": "d2a8",
+      "name": "teste",
+      "price": "10"
+    },
+    {
+      "id": "c666",
+      "name": "outro teste",
+      "price": "20"
+    },
+    {
+      "id": "189d",
+      "name": "limpando ",
+      "price": "5"
+    },
+    {
+      "id": "cb79",
+      "name": "refatorando post",
+      "price": "3"
+    },
+    {
+      "id": "d9e9",
+      "name": "a",
+      "price": "1"
+    },
+    {
+      "id": "32c9",
+      "name": "lento",
+      "price": "25"
+    },
+    {
+      "id": "6eac",
+      "name": "a",
+      "price": "aa"
+    },
+    {
+      "id": "077d",
+      "name": "a",
+      "price": "aa"
+    },
+    {
+      "id": "5ec9",
+      "name": "a",
+      "price": "aa"
+    },
+    {
+      "id": "8eb8",
+      "name": "a",
+      "price": "aa"
+    },
+    {
+      "id": "18b2",
+      "name": "a",
+      "price": "aa"
+    },
+    {
+      "id": "be5f",
+      "name": "a",
+      "price": "aa"
+    },
+    {
+      "id": "2c19",
+      "name": "p",
+      "price": "6"
+    },
+    {
+      "id": "bc3b",
+      "name": "aguarde ",
+      "price": "25"
+    }
+  ]
+}
