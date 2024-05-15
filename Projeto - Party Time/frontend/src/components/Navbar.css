@@ -1,0 +1,36 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+#navbar ul {
+  align-items: center;
+}
+
+#navbar h2 {
+  color: #7703fc;
+  font-weight: 900;
+}
+
+.btn, .btn-secondary {
+  background-color: #7703fc;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: 0.4s;
+  cursor: pointer;
+  display: block;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #283852;
+  border: 1px solid #cfcfcf;
+}
